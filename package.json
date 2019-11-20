@@ -7,6 +7,9 @@
     "test": "pkg-local dist && cd test && yarn install && yarn build && yarn test",
     "build": "tsc -b src"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [],
   "author": "SoraKumo",
   "license": "MIT",
