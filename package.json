@@ -1,0 +1,27 @@
+{
+  "name": "@rfcs/user",
+  "version": "1.0.0",
+  "description": "RFCS ユーザ管理モジュール",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "pkg-local dist && cd test && yarn install && yarn build && yarn test",
+    "build": "tsc -b src"
+  },
+  "keywords": [],
+  "author": "SoraKumo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remote-function-call-system/rfcs-user.git"
+  },
+  "bugs": {
+    "url": "https://github.com/remote-function-call-system/rfcs-user/issues"
+  },
+  "homepage": "https://github.com/remote-function-call-system/rfcs-user#readme",
+  "dependencies": {
+    "@rfcs/remote-db": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  }
+}
